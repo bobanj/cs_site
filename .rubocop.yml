@@ -1,0 +1,25 @@
+require:
+  - rubocop-rails
+  - rubocop-performance
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - "bin/**/*"
+    - "vendor/**/*"
+    - ".git/**/*"
+    - "gems/**/*"
+    - "db/schema.rb"
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Max: 12
+
+Metrics/MethodLength:
+  CountComments: false
+  Max: 20
+
+Metrics/PerceivedComplexity:
+  Max: 10
