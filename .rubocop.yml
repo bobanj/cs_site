@@ -11,8 +11,14 @@ AllCops:
     - "gems/**/*"
     - "db/schema.rb"
 
-Style/Documentation:
-  Enabled: false
+Layout/LineLength:
+  Exclude:
+    - "config/initializers/simple_form_bootstrap.rb"
+    - "config/initializers/simple_form.rb"
+
+Metrics/BlockLength:
+  Exclude:
+    - "config/initializers/simple_form_bootstrap.rb"
 
 Metrics/CyclomaticComplexity:
   Max: 12
@@ -23,3 +29,6 @@ Metrics/MethodLength:
 
 Metrics/PerceivedComplexity:
   Max: 10
+
+Style/Documentation:
+  Enabled: false
