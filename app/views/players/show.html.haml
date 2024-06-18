@@ -1,0 +1,33 @@
+%p#notice= notice
+
+%p
+  %b Team:
+  = @player.team
+%p
+  %b Name:
+  = @player.name
+%p
+  %b Country:
+  = @player.country
+%p
+  %b Nickname:
+  = @player.nickname
+%p
+  %b Status:
+  = @player.status
+%p
+  %b Logo path:
+  = @player.logo_path
+%p
+  %b Hltv url:
+  = @player.hltv_url
+%p
+  %b Hltv:
+  = @player.hltv_id
+%p
+  %b Hltv photo url:
+  = @player.hltv_photo_url
+
+= link_to 'Edit', edit_player_path(@player)
+\|
+= link_to 'Back', players_path

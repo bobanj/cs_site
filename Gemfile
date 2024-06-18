@@ -10,6 +10,7 @@ gem 'faker'
 gem 'faraday'
 gem 'faraday-cookie_jar'
 gem 'faraday-follow_redirects'
+gem 'fastimage'
 gem 'haml-rails', '~> 2.1'
 gem 'html2haml'
 gem 'importmap-rails'
@@ -24,7 +25,7 @@ gem 'simple_form', '~> 5.3'
 gem 'sprockets-rails'
 gem 'sqlite3', '~> 1.4'
 gem 'stimulus-rails'
-gem 'turbo-rails'
+gem 'turbo-rails', '~> 2.0'
 gem 'tzinfo-data', platforms: %i[windows jruby]
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]

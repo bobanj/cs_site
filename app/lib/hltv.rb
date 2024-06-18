@@ -2,13 +2,13 @@
 
 class Hltv
   BASE_URL = 'https://www.hltv.org'
-  HLTV_COOKIE_TIMEZONE = 'Europe/Copenhagen'
+  HLTV_COOKIE_TIMEZONE = 'Europe/Berlin'
   FILE_PATH = Rails.root.join('lib/data/hltv_data.json')
-
+  COOKIE_CONSENT = ''
   def initialize
     @teams_names = Set.new
     JSON.parse(File.read(ValveRank::FILE_PATH), symbolize_names: true).each do |team|
-      @teams_names << team[:team_name].downcase
+      @teams_names << team[:team_name].strip.downcase
     end
     @teams_info = []
     @conn = create_connection
@@ -28,8 +28,10 @@ class Hltv
   end
 
   def get_team_info(team_id)
-    page = get_parsed_page('/', pageid: 179, teamid: team_id)
+    Rails.logger.debug { "### Getting team info for team_id: #{team_id} ###" }
+    page = get_parsed_page('/', { pageid: 179, teamid: team_id })
     team_info = extract_team_info(page, team_id)
+    Rails.logger.debug { "@@@ Team info extracted: #{team_info} @@@" }
     team_info[:current_lineup] = get_current_lineup(team_id, team_info[:team_path_name])
     team_info[:stats] = extract_team_stats(page)
     team_info
@@ -38,7 +40,8 @@ class Hltv
   private
 
   def create_connection
-    headers = { 'Referer' => "#{BASE_URL}/stats", 'Cookie' => "hltvTimeZone=#{HLTV_COOKIE_TIMEZONE};" }
+    headers = { 'Referer' => "#{BASE_URL}/stats",
+                'Cookie' => "hltvTimeZone=#{HLTV_COOKIE_TIMEZONE};CookieConsent=#{COOKIE_CONSENT};" }
     Faraday.new(url: BASE_URL, headers:) do |faraday|
       faraday.response :follow_redirects
       faraday.use :cookie_jar
@@ -48,7 +51,7 @@ class Hltv
 
   def fetch
     result = []
-    teams = get_parsed_page('/stats/teams', minMapCount: 0)
+    teams = get_parsed_page('/stats/teams', { minMapCount: 0 })
     teams.css('td.teamCol-teams-overview a').each do |a_tag|
       next unless @teams_names.include?(a_tag.text.strip.downcase)
 
@@ -74,6 +77,7 @@ class Hltv
     result = _get_response(endpoint, params, other_browser:)
     counter = 0
     while result.text.include?('Just a moment...') && counter < 5
+      Rails.logger.debug { "Just a moment #{counter}..." }
       counter += 1
       sleep(counter)
       result = _get_response(endpoint, params, other_browser: true)
@@ -122,6 +126,7 @@ class Hltv
         nickname: row.css('.players-cell .text-ellipsis').text.strip,
         status: row.css('.players-cell.status-cell').text.strip,
         url: BASE_URL + row.css('a.playersBox-playernick-image.a-reset').attr('href').value,
+        image_url: row.css('img.playerBox-bodyshot').attr('src')&.value,
         id: row.css('a.playersBox-playernick-image.a-reset').attr('href').value.split('/').second_to_last.to_i
       }
     end
