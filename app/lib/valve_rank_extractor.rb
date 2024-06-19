@@ -1,8 +1,13 @@
 # frozen_string_literal: true
 
-class ValveRank
+class ValveRankExtractor
   BASE_URL = 'https://raw.githubusercontent.com/'
+  STANDINGS_ENDPOINT = '/ValveSoftware/counter-strike_regional_standings/main/standings_global.md'
   FILE_PATH = Rails.root.join('lib/data/ranking_data.json')
+  STANDING_INDEX = 0
+  POINTS_INDEX = 1
+  TEAM_NAME_INDEX = 2
+  ROSTER_INDEX = 3
 
   def initialize
     @teams_ranking = []
@@ -33,14 +38,14 @@ class ValveRank
   end
 
   def fetch
-    page = get_parsed_page('/ValveSoftware/counter-strike_regional_standings/main/standings_global.md')
+    page = get_parsed_page(STANDINGS_ENDPOINT)
     page.css('table tbody tr').each do |row|
-      row_data = row.xpath('td').map(&:text)
+      row_cells = row.xpath('td').map { |td| td.text.strip }
       @teams_ranking << {
-        standing: row_data[0],
-        points: row_data[1],
-        team_name: row_data[2],
-        roster: row_data[3]
+        standing: row_cells[STANDING_INDEX].to_i,
+        points: row_cells[POINTS_INDEX].to_i,
+        team_name: row_cells[TEAM_NAME_INDEX],
+        roster: row_cells[ROSTER_INDEX]
       }
     end
     @teams_ranking

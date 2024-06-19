@@ -1,15 +1,20 @@
 # frozen_string_literal: true
 
-class Hltv
+class HltvExtractor
   BASE_URL = 'https://www.hltv.org'
   HLTV_COOKIE_TIMEZONE = 'Europe/Berlin'
   FILE_PATH = Rails.root.join('lib/data/hltv_data.json')
+  # CookieConsent is a cookie that is set by the website to track the user's consent to cookies
+  # Needs to be filled manually before running the script
+  # You can fetch the value from the browser's developer tools (cookies)
   COOKIE_CONSENT = ''
+  HEADERS = {
+    'Referer' => "#{BASE_URL}/stats",
+    'Cookie' => "hltvTimeZone=#{HLTV_COOKIE_TIMEZONE};CookieConsent=#{COOKIE_CONSENT};"
+  }.freeze
+
   def initialize
-    @teams_names = Set.new
-    JSON.parse(File.read(ValveRank::FILE_PATH), symbolize_names: true).each do |team|
-      @teams_names << team[:team_name].strip.downcase
-    end
+    @teams_names = valve_teams_names
     @teams_info = []
     @conn = create_connection
     @logger = Logger.new($stdout)
@@ -18,7 +23,7 @@ class Hltv
   def all_teams_info
     return @teams_info if @teams_info.present?
 
-    @teams_info = fetch
+    @teams_info = _fetch
   end
 
   def export
@@ -27,12 +32,12 @@ class Hltv
     File.write(FILE_PATH, JSON.pretty_generate(all_teams_info))
   end
 
-  def get_team_info(team_id)
-    Rails.logger.debug { "### Getting team info for team_id: #{team_id} ###" }
-    page = get_parsed_page('/', { pageid: 179, teamid: team_id })
-    team_info = extract_team_info(page, team_id)
+  def get_team_info(hltv_team_id)
+    Rails.logger.debug { "### Getting team info for team_id: #{hltv_team_id} ###" }
+    page = get_parsed_page('/', { pageid: 179, teamid: hltv_team_id })
+    team_info = extract_team_info(page, hltv_team_id)
     Rails.logger.debug { "@@@ Team info extracted: #{team_info} @@@" }
-    team_info[:current_lineup] = get_current_lineup(team_id, team_info[:team_path_name])
+    team_info[:current_lineup] = get_current_lineup(hltv_team_id, team_info[:team_path_name])
     team_info[:stats] = extract_team_stats(page)
     team_info
   end
@@ -40,9 +45,7 @@ class Hltv
   private
 
   def create_connection
-    headers = { 'Referer' => "#{BASE_URL}/stats",
-                'Cookie' => "hltvTimeZone=#{HLTV_COOKIE_TIMEZONE};CookieConsent=#{COOKIE_CONSENT};" }
-    Faraday.new(url: BASE_URL, headers:) do |faraday|
+    Faraday.new(url: BASE_URL, headers: HEADERS) do |faraday|
       faraday.response :follow_redirects
       faraday.use :cookie_jar
       faraday.adapter Faraday.default_adapter
@@ -63,7 +66,15 @@ class Hltv
     result
   end
 
-  def _get_response(endpoint, params = {}, other_browser: false)
+  def valve_teams_names
+    teams_names = Set.new
+    JSON.parse(File.read(ValveRankExtractor::FILE_PATH), symbolize_names: true).each do |team|
+      teams_names << team[:team_name].downcase
+    end
+    teams_names
+  end
+
+  def get_response(endpoint, params = {}, other_browser: false)
     sleep(rand(1.0..3.0).round(2))
     response = @conn.get(endpoint) do |request|
       request.headers['User-Agent'] = Faker::Internet.user_agent if other_browser
@@ -74,24 +85,15 @@ class Hltv
   end
 
   def get_parsed_page(endpoint, params = {}, other_browser: false)
-    result = _get_response(endpoint, params, other_browser:)
+    result = get_response(endpoint, params, other_browser:)
     counter = 0
     while result.text.include?('Just a moment...') && counter < 5
       Rails.logger.debug { "Just a moment #{counter}..." }
       counter += 1
       sleep(counter)
-      result = _get_response(endpoint, params, other_browser: true)
+      result = get_response(endpoint, params, other_browser: true)
     end
     result
-  end
-
-  def player_info(player_link)
-    {
-      id: player_link['href'].split('/').second_to_last.to_i,
-      nickname: player_link['title'],
-      name: player_link.css('img').attr('title').value,
-      url: BASE_URL + player_link['href']
-    }
   end
 
   def extract_team_info(page, team_id)

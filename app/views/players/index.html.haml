@@ -3,15 +3,13 @@
 %table
   %thead
     %tr
-      %th Team
-      %th Name
-      %th Country
       %th Nickname
+      %th Photo
+      %th Country
+      %th Name
+      %th Team
       %th Status
-      %th Logo path
-      %th Hltv url
-      %th Hltv
-      %th Hltv photo url
+      %th HLTV
       %th
       %th
       %th
@@ -19,15 +17,15 @@
   %tbody
     - @players.each do |player|
       %tr
-        %td= player.team
-        %td= player.name
-        %td= player.country
         %td= player.nickname
+        %td
+          - if player.logo_path.present?
+            = image_tag player.logo_path, width: '77', height: '80', alt: player.name, class: 'player-logo'
+        %td= player.country
+        %td= player.name
+        %td= player.team.name
         %td= player.status
-        %td= player.logo_path
-        %td= player.hltv_url
-        %td= player.hltv_id
-        %td= player.hltv_photo_url
+        %td= link_to "hltv", player.hltv_url
         %td= link_to 'Show', player
         %td= link_to 'Edit', edit_player_path(player)
         %td= link_to 'Destroy', player, method: :delete, data: { confirm: 'Are you sure?' }
