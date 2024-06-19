@@ -1,36 +1,52 @@
 %h1 Listing teams
-
-%table
-  %thead
-    %tr
-      %th Logo
-      %th Team Name
-      %th Points
-      %th Standing
-      %th HLTV
-      %th
-      %th
-      %th
-      %th
-      %th
-      %th
-      %th
-
-  %tbody
-    - @teams.each do |team|
+.row.mb-3
+.table-responsive.rounded.shadow.table-info
+  %table.table.table-info.table-striped.table-hover.m-0
+    %thead.table-primary
       %tr
-        %td
-          - if team.logo_path.present?
-            = image_tag team.logo_path, height: '30', width: '30', alt: team.name, class: 'team-logo'
-        %td.fw-bold= team.name
-        %td= team.points
-        %td.text-center= team.standing
-        %td= link_to "HLTV", "https://www.hltv.org/team/#{team.hltv_id}/#{team.hltv_path_name}#tab-rosterBox", target: "_blank"
-        %td= link_to "HLTV STATS", team.hltv_url, target: "_blank"
-        %td= link_to 'Show', team
-        %td= link_to 'Edit', edit_team_path(team)
-        %td= link_to 'Destroy', team, method: :delete, data: { confirm: 'Are you sure?' }
+        %th{scope: 'col'} Logo
+        %th{scope: 'col'} Team
+        %th{scope: 'col'} Points
+        %th{scope: 'col'} Standing
+        %th{scope: 'col'} Diff
+        %th{scope: 'col'} Members
+        %th{scope: 'col'} HLTV
+        %th{scope: 'col'} HLTV Stats
+        %th{scope: 'col'} Actions
+    %tbody{id: 'teams'}
+      = render partial: 'teams/team', collection: @teams
 
-%br
-
-= link_to 'New Team', new_team_path
+-# %table
+-#   %thead
+-#     %tr
+-#       %th Logo
+-#       %th Team Name
+-#       %th Points
+-#       %th Standing
+-#       %th HLTV
+-#       %th
+-#       %th
+-#       %th
+-#       %th
+-#       %th
+-#       %th
+-#       %th
+-#
+-#   %tbody
+-#     - @teams.each do |team|
+-#       %tr
+-#         %td
+-#           - if team.logo_path.present?
+-#             = image_tag team.logo_path, height: '30', width: '30', alt: team.name, class: 'team-logo'
+-#         %td.fw-bold= team.name
+-#         %td= team.points
+-#         %td.text-center= team.standing
+-#         %td= link_to "HLTV", "https://www.hltv.org/team/#{team.hltv_id}/#{team.hltv_path_name}#tab-rosterBox", target: "_blank"
+-#         %td= link_to "HLTV STATS", team.hltv_url, target: "_blank"
+-#         %td= link_to 'Show', team
+-#         %td= link_to 'Edit', edit_team_path(team)
+-#         %td= link_to 'Destroy', team, method: :delete, data: { confirm: 'Are you sure?' }
+-#
+-# %br
+-#
+-# = link_to 'New Team', new_team_path

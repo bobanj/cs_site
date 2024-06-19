@@ -2,9 +2,6 @@
 
 class Team < ApplicationRecord
   has_many :players, dependent: :destroy
-  # rubocop:disable Rails/UniqueValidationWithoutIndex
-  validates :name, uniqueness: true
-  # rubocop:enable Rails/UniqueValidationWithoutIndex
 
   def self.get_duplicates(*columns)
     order('created_at ASC').select("#{columns.join(',')}, COUNT(*)").group(columns).having('COUNT(*) > 1')

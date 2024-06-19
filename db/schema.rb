@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_06_18_183118) do
+ActiveRecord::Schema[7.1].define(version: 2024_06_19_183951) do
   create_table "players", force: :cascade do |t|
     t.integer "team_id", null: false
     t.string "name"
@@ -23,6 +23,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_06_18_183118) do
     t.string "hltv_photo_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["name"], name: "index_players_name", unique: true
     t.index ["team_id"], name: "index_players_on_team_id"
   end
 
@@ -35,9 +36,11 @@ ActiveRecord::Schema[7.1].define(version: 2024_06_18_183118) do
     t.string "hltv_url"
     t.integer "points"
     t.integer "standing"
+    t.integer "previous_standing"
     t.string "status"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["name"], name: "index_teams_name", unique: true
   end
 
   add_foreign_key "players", "teams"

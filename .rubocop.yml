@@ -44,3 +44,6 @@ Style/Documentation:
 
 Rails/I18nLocaleTexts:
   Enabled: false
+
+Rails/Output:
+  Enabled: false

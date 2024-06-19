@@ -14,6 +14,7 @@ class CreatePlayers < ActiveRecord::Migration[7.1]
       t.string :hltv_photo_url
 
       t.timestamps
+      t.index ['name'], name: 'index_players_name', unique: true
     end
   end
 end

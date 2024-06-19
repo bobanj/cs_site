@@ -29,13 +29,13 @@ class Importer
       hltv_data.each do |hltv_team|
         team = Team.where('lower(name) = ?', hltv_team[:name].downcase).first
         if team.blank?
-          Rails.logger.debug { "Team not found: #{hltv_team[:name]}" }
+          Rails.logger.info { "Team not found: #{hltv_team[:name]}" }
           next
         end
         if hltv_team[:current_lineup].present?
           team_update_from_hltv(team, hltv_team)
         else
-          Rails.logger.debug { "@@@#{team.name}@@@ has no current lineup" }
+          Rails.logger.info { "@@@#{team.name}@@@ has no current lineup" }
           next
         end
 

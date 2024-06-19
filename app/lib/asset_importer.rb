@@ -32,11 +32,13 @@ class AssetImporter
 
   def download_image(object)
     # object is either a Team or a Player instance
-    return if object.logo_path.present? || image_exists?(object)
+    return if object.logo_path.present?
+    return if already_downloaded?(object)
 
     @no_logo_items << object and return if object.logo_url.blank?
     setup_placeholder_image(object) and return if object.logo_url.starts_with?('/')
 
+    puts "DOWNLOADING IMAGE FOR #{object.class.name}: #{pom}: #{object.id}"
     io = image_io(object.logo_url.gsub(BASE_URL, ''))
     extension = image_extension(io)
     @no_logo_items << object and return if extension.blank?
@@ -44,6 +46,17 @@ class AssetImporter
     logo_path = "#{object.class.name.downcase.pluralize}/#{object.logo_name}.#{extension}"
     save_image(Rails.root.join("app/assets/images/#{logo_path}"), io)
     object.update(logo_path:)
+  end
+
+  def already_downloaded?(object)
+    pathname = image_pathname(object)
+    pom = object.respond_to?(:nickname) ? object.nickname : object.name
+    if pathname&.exist?
+      puts "FOUND IMAGE FOR #{object.class.name}: #{pom}: #{object.id}: #{pathname}"
+      object.update(logo_path: pathname.sub(Rails.root.join('app/assets/images/').to_s, ''))
+      return true
+    end
+    false
   end
 
   def setup_placeholder_image(object)
@@ -68,7 +81,7 @@ class AssetImporter
     sleep_random
     response = @connection.get(url)
     unless response.success?
-      Rails.logger.debug { "Failed to fetch the image. Status: #{response.status} URL: #{url}" }
+      Rails.logger.info { "Failed to fetch the image. Status: #{response.status} URL: #{url}" }
       return nil
     end
     StringIO.new(response.body)
@@ -76,17 +89,17 @@ class AssetImporter
 
   def save_image(path, io)
     if File.exist?(path)
-      Rails.logger.debug { "File already exists: #{path}" }
+      Rails.logger.info { "File already exists: #{path}" }
       return
     end
 
     File.binwrite(path, io.read)
   end
 
-  def image_exists?(object)
+  def image_pathname(object)
     return true if object.logo_path.present? && Rails.root.join("app/assets/images/#{object.logo_path}").exist?
 
-    Rails.root.glob("app/assets/images/#{object.class.name.downcase.pluralize}/#{object.logo_name}.*").any?
+    Rails.root.glob("app/assets/images/#{object.class.name.downcase.pluralize}/#{object.logo_name}.*").first
   end
 
   def export_no_logo_items

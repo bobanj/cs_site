@@ -1,8 +1,8 @@
 %nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
-  = link_to image_tag("cs_logo_ani.gif", alt: "logo", width: '40px', height: '42px'), '/', class: 'navbar-brand'
+  = link_to image_tag("cs_logo_ani.gif", alt: "logo", width: '40px', height: '42px'), '/', class: 'navbar-brand ms-4'
   #navbarNav.collapse.navbar-collapse
     %ul.nav.navbar-nav
       %li.nav-item
-        %a.nav-link{href: root_path, class: ('active' if current_page?(root_path))} All
+        %a.nav-link{href: root_path, class: ('active' if current_page?(root_path))} Teams
       %li.nav-item
         = link_to image_tag("gcloud.png", alt: "ghetto-cloud"), 'javascript:void(0);', class: 'nav-link load_ponies'

@@ -1,0 +1,19 @@
+%tr{scope: 'row', id: dom_id(team)}
+  %td
+    - if team.logo_path.present?
+      = image_tag team.logo_path, height: '30', width: '30', alt: team.name, class: 'team-logo'
+  %td.font-weight-bold= team.name
+  %td= team.points
+  %td= team.standing
+  %td TODO
+  %td= team.players.map(&:nickname).join(', ').truncate(25)
+  %td= link_to "HLTV", "https://www.hltv.org/team/#{team.hltv_id}/#{team.hltv_path_name}#tab-rosterBox", target: "_blank"
+  %td= link_to "STATS", team.hltv_url, target: "_blank"
+  %td
+    .input-group
+      -# .col
+      -#   = link_to 'Show', team, class: 'btn btn-primary', role: 'button'
+      .col
+        = link_to 'Edit', edit_team_path(team), class: 'btn btn-primary mr-1', role: 'button'
+      .col
+        = button_to "Delete", team, class: "btn btn-danger", method: :delete, data: { turbo_confirm: ("Are you sure?") }

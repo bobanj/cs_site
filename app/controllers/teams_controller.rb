@@ -5,7 +5,7 @@ class TeamsController < ApplicationController
 
   # GET /teams or /teams.json
   def index
-    @teams = Team.order(:standing).all
+    @teams = Team.includes(:players).order(:standing).all
   end
 
   # GET /teams/1 or /teams/1.json
@@ -67,6 +67,6 @@ class TeamsController < ApplicationController
   # Only allow a list of trusted parameters through.
   def team_params
     params.require(:team).permit(:name, :logo_url, :logo_path, :hltv_id, :hltv_path_name, :hltv_url, :points,
-                                 :standing, :status)
+                                 :standing, :previous_standing, :status)
   end
 end

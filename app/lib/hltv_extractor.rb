@@ -33,10 +33,10 @@ class HltvExtractor
   end
 
   def get_team_info(hltv_team_id)
-    Rails.logger.debug { "### Getting team info for team_id: #{hltv_team_id} ###" }
+    Rails.logger.info { "### Getting team info for team_id: #{hltv_team_id} ###" }
     page = get_parsed_page('/', { pageid: 179, teamid: hltv_team_id })
     team_info = extract_team_info(page, hltv_team_id)
-    Rails.logger.debug { "@@@ Team info extracted: #{team_info} @@@" }
+    Rails.logger.info { "@@@ Team info extracted: #{team_info} @@@" }
     team_info[:current_lineup] = get_current_lineup(hltv_team_id, team_info[:team_path_name])
     team_info[:stats] = extract_team_stats(page)
     team_info
@@ -88,7 +88,7 @@ class HltvExtractor
     result = get_response(endpoint, params, other_browser:)
     counter = 0
     while result.text.include?('Just a moment...') && counter < 5
-      Rails.logger.debug { "Just a moment #{counter}..." }
+      Rails.logger.info { "Just a moment #{counter}..." }
       counter += 1
       sleep(counter)
       result = get_response(endpoint, params, other_browser: true)

@@ -11,9 +11,11 @@ class CreateTeams < ActiveRecord::Migration[7.1]
       t.string :hltv_url
       t.integer :points
       t.integer :standing
+      t.integer :previous_standing
       t.string :status
 
       t.timestamps
+      t.index ['name'], name: 'index_teams_name', unique: true
     end
   end
 end
