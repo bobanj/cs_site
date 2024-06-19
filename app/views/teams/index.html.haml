@@ -7,7 +7,7 @@
       %th Team Name
       %th Points
       %th Standing
-      %th
+      %th HLTV
       %th
       %th
       %th
@@ -22,10 +22,11 @@
         %td
           - if team.logo_path.present?
             = image_tag team.logo_path, height: '30', width: '30', alt: team.name, class: 'team-logo'
-        %td.fw-bold.gap-1= team.name
+        %td.fw-bold= team.name
         %td= team.points
         %td.text-center= team.standing
-        %td= team.status
+        %td= link_to "HLTV", "https://www.hltv.org/team/#{team.hltv_id}/#{team.hltv_path_name}#tab-rosterBox", target: "_blank"
+        %td= link_to "HLTV STATS", team.hltv_url, target: "_blank"
         %td= link_to 'Show', team
         %td= link_to 'Edit', edit_team_path(team)
         %td= link_to 'Destroy', team, method: :delete, data: { confirm: 'Are you sure?' }

@@ -84,14 +84,14 @@ class AssetImporter
   end
 
   def image_exists?(object)
-    return true if Rails.root.join("app/assets/images/#{object.logo_path}").exist?
+    return true if object.logo_path.present? && Rails.root.join("app/assets/images/#{object.logo_path}").exist?
 
-    Rails.root.glob("app/assets/images/#{object.logo_name}.*").any?
+    Rails.root.glob("app/assets/images/#{object.class.name.downcase.pluralize}/#{object.logo_name}.*").any?
   end
 
   def export_no_logo_items
     return if @no_logo_items.blank?
 
-    Rails.root.join('lib/data/no_logo_items.json').write(JSON.pretty_generate(@no_logo_items))
+    Rails.root.join('lib/data/no_logo_items.json').write(JSON.pretty_generate(@no_logo_items.map(&:as_json)))
   end
 end

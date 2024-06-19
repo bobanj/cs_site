@@ -16,6 +16,7 @@ class Importer
       ranking_data.each do |ranking|
         team = Team.where('lower(name) = ?', ranking[:team_name].downcase).first
         team ||= Team.find_by(name: ranking[:team_name])
+        team.update(points: ranking[:points], standing: ranking[:standing]) if team.present?
         team ||= Team.create(name: ranking[:team_name], points: ranking[:points], standing: ranking[:standing])
         ranking[:roster].split(', ').each do |nickname|
           team.players.find_or_create_by(nickname: nickname.strip)
@@ -31,12 +32,13 @@ class Importer
           Rails.logger.debug { "Team not found: #{hltv_team[:name]}" }
           next
         end
-        team_update_from_hltv(team, hltv_team)
-
-        if hltv_team[:current_lineup].blank?
+        if hltv_team[:current_lineup].present?
+          team_update_from_hltv(team, hltv_team)
+        else
           Rails.logger.debug { "@@@#{team.name}@@@ has no current lineup" }
           next
         end
+
         hltv_team[:current_lineup].each do |hltv_player|
           player = team.players.find_or_create_by(nickname: hltv_player[:nickname].strip)
           player_update_from_hltv(player, hltv_player)
@@ -46,21 +48,25 @@ class Importer
 
     def player_update_from_hltv(player, hltv_player)
       player.update(
-        name: hltv_player[:name],
-        country: hltv_player[:country],
-        status: hltv_player[:status],
-        hltv_url: hltv_player[:url],
-        hltv_id: hltv_player[:id],
-        hltv_photo_url: hltv_player[:image_url]
+        {
+          name: hltv_player[:name],
+          country: hltv_player[:country],
+          status: hltv_player[:status],
+          hltv_url: hltv_player[:url],
+          hltv_id: hltv_player[:id],
+          hltv_photo_url: hltv_player[:image_url]
+        }.compact
       )
     end
 
     def team_update_from_hltv(team, hltv_team)
       team.update(
-        hltv_id: hltv_team[:team_id],
-        hltv_url: hltv_team[:url],
-        hltv_path_name: hltv_team[:team_path_name],
-        logo_url: hltv_team[:team_logo]
+        {
+          hltv_id: hltv_team[:team_id],
+          hltv_url: hltv_team[:url],
+          hltv_path_name: hltv_team[:team_path_name],
+          logo_url: hltv_team[:team_logo]
+        }.compact
       )
     end
   end
