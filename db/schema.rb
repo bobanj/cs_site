@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_06_19_183951) do
+ActiveRecord::Schema[7.1].define(version: 2024_06_22_082658) do
   create_table "players", force: :cascade do |t|
     t.integer "team_id", null: false
     t.string "name"
@@ -34,13 +34,23 @@ ActiveRecord::Schema[7.1].define(version: 2024_06_19_183951) do
     t.integer "hltv_id"
     t.string "hltv_path_name"
     t.string "hltv_url"
-    t.integer "points"
-    t.integer "standing"
-    t.integer "previous_standing"
+    t.integer "valve_points"
+    t.integer "valve_standing"
     t.string "status"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["name"], name: "index_teams_name", unique: true
+  end
+
+  create_table "versions", force: :cascade do |t|
+    t.string "item_type", null: false
+    t.bigint "item_id", null: false
+    t.string "event", null: false
+    t.string "whodunnit"
+    t.text "object", limit: 1073741823
+    t.datetime "created_at"
+    t.text "object_changes", limit: 1073741823
+    t.index ["item_type", "item_id"], name: "index_versions_on_item_type_and_item_id"
   end
 
   add_foreign_key "players", "teams"

@@ -3,9 +3,10 @@
     - if team.logo_path.present?
       = image_tag team.logo_path, height: '30', width: '30', alt: team.name, class: 'team-logo'
   %td.font-weight-bold= team.name
-  %td= team.points
-  %td= team.standing
-  %td TODO
+  %td= team.valve_standing
+  %td= team.valve_standing_diff
+  %td= team.valve_points
+  %td= team.valve_points_diff
   %td= team.players.map(&:nickname).join(', ').truncate(25)
   %td= link_to "HLTV", "https://www.hltv.org/team/#{team.hltv_id}/#{team.hltv_path_name}#tab-rosterBox", target: "_blank"
   %td= link_to "STATS", team.hltv_url, target: "_blank"

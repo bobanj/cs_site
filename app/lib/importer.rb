@@ -16,8 +16,10 @@ class Importer
       ranking_data.each do |ranking|
         team = Team.where('lower(name) = ?', ranking[:team_name].downcase).first
         team ||= Team.find_by(name: ranking[:team_name])
-        team.update(points: ranking[:points], standing: ranking[:standing]) if team.present?
-        team ||= Team.create(name: ranking[:team_name], points: ranking[:points], standing: ranking[:standing])
+        team.update(valve_points: ranking[:points], valve_standing: ranking[:standing]) if team.present?
+        team ||= Team.create(
+          name: ranking[:team_name], valve_points: ranking[:points], valve_standing: ranking[:standing]
+        )
         ranking[:roster].split(', ').each do |nickname|
           team.players.find_or_create_by(nickname: nickname.strip)
         end

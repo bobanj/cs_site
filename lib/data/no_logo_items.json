@@ -10,8 +10,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:06.919Z",
-    "updated_at": "2024-06-19T19:48:06.919Z"
+    "created_at": "2024-06-22T09:00:06.152Z",
+    "updated_at": "2024-06-22T09:00:06.152Z"
   },
   {
     "id": 284,
@@ -24,8 +24,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:06.935Z",
-    "updated_at": "2024-06-19T19:48:06.935Z"
+    "created_at": "2024-06-22T09:00:06.168Z",
+    "updated_at": "2024-06-22T09:00:06.168Z"
   },
   {
     "id": 306,
@@ -38,8 +38,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:06.956Z",
-    "updated_at": "2024-06-19T19:48:06.956Z"
+    "created_at": "2024-06-22T09:00:06.189Z",
+    "updated_at": "2024-06-22T09:00:06.189Z"
   },
   {
     "id": 1054,
@@ -52,8 +52,8 @@
     "hltv_url": "https://www.hltv.org/player/11039/jazzpimp",
     "hltv_id": 11039,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.849Z",
-    "updated_at": "2024-06-19T19:48:07.849Z"
+    "created_at": "2024-06-22T09:00:07.145Z",
+    "updated_at": "2024-06-22T09:00:07.146Z"
   },
   {
     "id": 336,
@@ -66,8 +66,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:06.982Z",
-    "updated_at": "2024-06-19T19:48:06.982Z"
+    "created_at": "2024-06-22T09:00:06.217Z",
+    "updated_at": "2024-06-22T09:00:06.217Z"
   },
   {
     "id": 340,
@@ -80,8 +80,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:06.987Z",
-    "updated_at": "2024-06-19T19:48:06.987Z"
+    "created_at": "2024-06-22T09:00:06.221Z",
+    "updated_at": "2024-06-22T09:00:06.221Z"
   },
   {
     "id": 71,
@@ -91,12 +91,11 @@
     "hltv_id": null,
     "hltv_path_name": null,
     "hltv_url": null,
-    "points": 989,
-    "standing": 72,
-    "previous_standing": null,
+    "valve_points": 989,
+    "valve_standing": 72,
     "status": null,
-    "created_at": "2024-06-19T19:48:06.999Z",
-    "updated_at": "2024-06-19T19:48:06.999Z"
+    "created_at": "2024-06-22T09:00:06.233Z",
+    "updated_at": "2024-06-22T09:00:06.233Z"
   },
   {
     "id": 354,
@@ -109,8 +108,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.000Z",
-    "updated_at": "2024-06-19T19:48:07.000Z"
+    "created_at": "2024-06-22T09:00:06.233Z",
+    "updated_at": "2024-06-22T09:00:06.233Z"
   },
   {
     "id": 355,
@@ -123,8 +122,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.000Z",
-    "updated_at": "2024-06-19T19:48:07.000Z"
+    "created_at": "2024-06-22T09:00:06.234Z",
+    "updated_at": "2024-06-22T09:00:06.234Z"
   },
   {
     "id": 357,
@@ -137,8 +136,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.002Z",
-    "updated_at": "2024-06-19T19:48:07.002Z"
+    "created_at": "2024-06-22T09:00:06.236Z",
+    "updated_at": "2024-06-22T09:00:06.236Z"
   },
   {
     "id": 358,
@@ -151,8 +150,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.003Z",
-    "updated_at": "2024-06-19T19:48:07.003Z"
+    "created_at": "2024-06-22T09:00:06.237Z",
+    "updated_at": "2024-06-22T09:00:06.237Z"
   },
   {
     "id": 384,
@@ -165,8 +164,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.027Z",
-    "updated_at": "2024-06-19T19:48:07.027Z"
+    "created_at": "2024-06-22T09:00:06.260Z",
+    "updated_at": "2024-06-22T09:00:06.260Z"
   },
   {
     "id": 386,
@@ -179,8 +178,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.029Z",
-    "updated_at": "2024-06-19T19:48:07.029Z"
+    "created_at": "2024-06-22T09:00:06.261Z",
+    "updated_at": "2024-06-22T09:00:06.261Z"
   },
   {
     "id": 79,
@@ -190,12 +189,11 @@
     "hltv_id": null,
     "hltv_path_name": null,
     "hltv_url": null,
-    "points": 953,
-    "standing": 80,
-    "previous_standing": null,
+    "valve_points": 953,
+    "valve_standing": 80,
     "status": null,
-    "created_at": "2024-06-19T19:48:07.036Z",
-    "updated_at": "2024-06-19T19:48:07.036Z"
+    "created_at": "2024-06-22T09:00:06.268Z",
+    "updated_at": "2024-06-22T09:00:06.268Z"
   },
   {
     "id": 394,
@@ -208,8 +206,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.037Z",
-    "updated_at": "2024-06-19T19:48:07.037Z"
+    "created_at": "2024-06-22T09:00:06.269Z",
+    "updated_at": "2024-06-22T09:00:06.269Z"
   },
   {
     "id": 395,
@@ -222,8 +220,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.037Z",
-    "updated_at": "2024-06-19T19:48:07.037Z"
+    "created_at": "2024-06-22T09:00:06.270Z",
+    "updated_at": "2024-06-22T09:00:06.270Z"
   },
   {
     "id": 397,
@@ -236,8 +234,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.039Z",
-    "updated_at": "2024-06-19T19:48:07.039Z"
+    "created_at": "2024-06-22T09:00:06.271Z",
+    "updated_at": "2024-06-22T09:00:06.271Z"
   },
   {
     "id": 399,
@@ -250,8 +248,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.041Z",
-    "updated_at": "2024-06-19T19:48:07.041Z"
+    "created_at": "2024-06-22T09:00:06.273Z",
+    "updated_at": "2024-06-22T09:00:06.273Z"
   },
   {
     "id": 409,
@@ -264,8 +262,8 @@
     "hltv_url": "https://www.hltv.org/player/18545/asap",
     "hltv_id": 18545,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.051Z",
-    "updated_at": "2024-06-19T19:48:08.072Z"
+    "created_at": "2024-06-22T09:00:06.282Z",
+    "updated_at": "2024-06-22T09:00:07.372Z"
   },
   {
     "id": 410,
@@ -278,8 +276,8 @@
     "hltv_url": "https://www.hltv.org/player/12877/chelleos",
     "hltv_id": 12877,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.051Z",
-    "updated_at": "2024-06-19T19:48:08.072Z"
+    "created_at": "2024-06-22T09:00:06.283Z",
+    "updated_at": "2024-06-22T09:00:07.373Z"
   },
   {
     "id": 412,
@@ -292,8 +290,8 @@
     "hltv_url": "https://www.hltv.org/player/18214/nettik",
     "hltv_id": 18214,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.052Z",
-    "updated_at": "2024-06-19T19:48:08.073Z"
+    "created_at": "2024-06-22T09:00:06.284Z",
+    "updated_at": "2024-06-22T09:00:07.374Z"
   },
   {
     "id": 413,
@@ -306,8 +304,8 @@
     "hltv_url": "https://www.hltv.org/player/20527/tjp",
     "hltv_id": 20527,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.053Z",
-    "updated_at": "2024-06-19T19:48:08.074Z"
+    "created_at": "2024-06-22T09:00:06.285Z",
+    "updated_at": "2024-06-22T09:00:07.374Z"
   },
   {
     "id": 86,
@@ -317,12 +315,11 @@
     "hltv_id": null,
     "hltv_path_name": null,
     "hltv_url": null,
-    "points": 927,
-    "standing": 87,
-    "previous_standing": null,
+    "valve_points": 927,
+    "valve_standing": 87,
     "status": null,
-    "created_at": "2024-06-19T19:48:07.069Z",
-    "updated_at": "2024-06-19T19:48:07.069Z"
+    "created_at": "2024-06-22T09:00:06.305Z",
+    "updated_at": "2024-06-22T09:00:06.305Z"
   },
   {
     "id": 459,
@@ -335,8 +332,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.097Z",
-    "updated_at": "2024-06-19T19:48:07.097Z"
+    "created_at": "2024-06-22T09:00:06.333Z",
+    "updated_at": "2024-06-22T09:00:06.333Z"
   },
   {
     "id": 466,
@@ -349,8 +346,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.103Z",
-    "updated_at": "2024-06-19T19:48:07.103Z"
+    "created_at": "2024-06-22T09:00:06.339Z",
+    "updated_at": "2024-06-22T09:00:06.339Z"
   },
   {
     "id": 480,
@@ -363,8 +360,8 @@
     "hltv_url": "https://www.hltv.org/player/8503/fl0m",
     "hltv_id": 8503,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.115Z",
-    "updated_at": "2024-06-19T19:48:08.052Z"
+    "created_at": "2024-06-22T09:00:06.351Z",
+    "updated_at": "2024-06-22T09:00:07.352Z"
   },
   {
     "id": 482,
@@ -377,8 +374,8 @@
     "hltv_url": "https://www.hltv.org/player/16163/hate",
     "hltv_id": 16163,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.117Z",
-    "updated_at": "2024-06-19T19:48:08.053Z"
+    "created_at": "2024-06-22T09:00:06.353Z",
+    "updated_at": "2024-06-22T09:00:07.354Z"
   },
   {
     "id": 484,
@@ -391,8 +388,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.119Z",
-    "updated_at": "2024-06-19T19:48:07.119Z"
+    "created_at": "2024-06-22T09:00:06.355Z",
+    "updated_at": "2024-06-22T09:00:06.355Z"
   },
   {
     "id": 833,
@@ -405,8 +402,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.445Z",
-    "updated_at": "2024-06-19T19:48:07.445Z"
+    "created_at": "2024-06-22T09:00:06.698Z",
+    "updated_at": "2024-06-22T09:00:06.698Z"
   },
   {
     "id": 836,
@@ -419,8 +416,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.447Z",
-    "updated_at": "2024-06-19T19:48:07.447Z"
+    "created_at": "2024-06-22T09:00:06.701Z",
+    "updated_at": "2024-06-22T09:00:06.701Z"
   },
   {
     "id": 500,
@@ -433,8 +430,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.133Z",
-    "updated_at": "2024-06-19T19:48:07.133Z"
+    "created_at": "2024-06-22T09:00:06.369Z",
+    "updated_at": "2024-06-22T09:00:06.369Z"
   },
   {
     "id": 501,
@@ -447,8 +444,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.134Z",
-    "updated_at": "2024-06-19T19:48:07.134Z"
+    "created_at": "2024-06-22T09:00:06.370Z",
+    "updated_at": "2024-06-22T09:00:06.370Z"
   },
   {
     "id": 502,
@@ -461,8 +458,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.135Z",
-    "updated_at": "2024-06-19T19:48:07.135Z"
+    "created_at": "2024-06-22T09:00:06.371Z",
+    "updated_at": "2024-06-22T09:00:06.371Z"
   },
   {
     "id": 504,
@@ -475,8 +472,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.137Z",
-    "updated_at": "2024-06-19T19:48:07.137Z"
+    "created_at": "2024-06-22T09:00:06.373Z",
+    "updated_at": "2024-06-22T09:00:06.373Z"
   },
   {
     "id": 509,
@@ -489,8 +486,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.141Z",
-    "updated_at": "2024-06-19T19:48:07.141Z"
+    "created_at": "2024-06-22T09:00:06.377Z",
+    "updated_at": "2024-06-22T09:00:06.377Z"
   },
   {
     "id": 514,
@@ -503,8 +500,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.146Z",
-    "updated_at": "2024-06-19T19:48:07.146Z"
+    "created_at": "2024-06-22T09:00:06.382Z",
+    "updated_at": "2024-06-22T09:00:06.382Z"
   },
   {
     "id": 515,
@@ -517,8 +514,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.147Z",
-    "updated_at": "2024-06-19T19:48:07.147Z"
+    "created_at": "2024-06-22T09:00:06.382Z",
+    "updated_at": "2024-06-22T09:00:06.382Z"
   },
   {
     "id": 516,
@@ -531,8 +528,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.148Z",
-    "updated_at": "2024-06-19T19:48:07.148Z"
+    "created_at": "2024-06-22T09:00:06.383Z",
+    "updated_at": "2024-06-22T09:00:06.383Z"
   },
   {
     "id": 518,
@@ -545,8 +542,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.149Z",
-    "updated_at": "2024-06-19T19:48:07.149Z"
+    "created_at": "2024-06-22T09:00:06.385Z",
+    "updated_at": "2024-06-22T09:00:06.385Z"
   },
   {
     "id": 525,
@@ -559,8 +556,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.155Z",
-    "updated_at": "2024-06-19T19:48:07.155Z"
+    "created_at": "2024-06-22T09:00:06.391Z",
+    "updated_at": "2024-06-22T09:00:06.391Z"
   },
   {
     "id": 662,
@@ -573,8 +570,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.291Z",
-    "updated_at": "2024-06-19T19:48:07.291Z"
+    "created_at": "2024-06-22T09:00:06.536Z",
+    "updated_at": "2024-06-22T09:00:06.536Z"
   },
   {
     "id": 663,
@@ -587,8 +584,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.292Z",
-    "updated_at": "2024-06-19T19:48:07.292Z"
+    "created_at": "2024-06-22T09:00:06.537Z",
+    "updated_at": "2024-06-22T09:00:06.537Z"
   },
   {
     "id": 664,
@@ -601,8 +598,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.293Z",
-    "updated_at": "2024-06-19T19:48:07.293Z"
+    "created_at": "2024-06-22T09:00:06.538Z",
+    "updated_at": "2024-06-22T09:00:06.538Z"
   },
   {
     "id": 945,
@@ -615,8 +612,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.547Z",
-    "updated_at": "2024-06-19T19:48:07.547Z"
+    "created_at": "2024-06-22T09:00:06.807Z",
+    "updated_at": "2024-06-22T09:00:06.807Z"
   },
   {
     "id": 946,
@@ -629,8 +626,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.548Z",
-    "updated_at": "2024-06-19T19:48:07.548Z"
+    "created_at": "2024-06-22T09:00:06.807Z",
+    "updated_at": "2024-06-22T09:00:06.807Z"
   },
   {
     "id": 947,
@@ -643,8 +640,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.548Z",
-    "updated_at": "2024-06-19T19:48:07.548Z"
+    "created_at": "2024-06-22T09:00:06.808Z",
+    "updated_at": "2024-06-22T09:00:06.808Z"
   },
   {
     "id": 574,
@@ -657,8 +654,8 @@
     "hltv_url": "https://www.hltv.org/player/14744/calamity",
     "hltv_id": 14744,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.201Z",
-    "updated_at": "2024-06-19T19:48:08.357Z"
+    "created_at": "2024-06-22T09:00:06.436Z",
+    "updated_at": "2024-06-22T09:00:07.658Z"
   },
   {
     "id": 848,
@@ -671,8 +668,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.459Z",
-    "updated_at": "2024-06-19T19:48:07.459Z"
+    "created_at": "2024-06-22T09:00:06.713Z",
+    "updated_at": "2024-06-22T09:00:06.713Z"
   },
   {
     "id": 588,
@@ -685,8 +682,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.212Z",
-    "updated_at": "2024-06-19T19:48:07.212Z"
+    "created_at": "2024-06-22T09:00:06.449Z",
+    "updated_at": "2024-06-22T09:00:06.449Z"
   },
   {
     "id": 592,
@@ -699,8 +696,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.217Z",
-    "updated_at": "2024-06-19T19:48:07.217Z"
+    "created_at": "2024-06-22T09:00:06.456Z",
+    "updated_at": "2024-06-22T09:00:06.456Z"
   },
   {
     "id": 602,
@@ -713,8 +710,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.235Z",
-    "updated_at": "2024-06-19T19:48:07.235Z"
+    "created_at": "2024-06-22T09:00:06.473Z",
+    "updated_at": "2024-06-22T09:00:06.473Z"
   },
   {
     "id": 604,
@@ -727,8 +724,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.237Z",
-    "updated_at": "2024-06-19T19:48:07.237Z"
+    "created_at": "2024-06-22T09:00:06.475Z",
+    "updated_at": "2024-06-22T09:00:06.475Z"
   },
   {
     "id": 612,
@@ -741,8 +738,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.244Z",
-    "updated_at": "2024-06-19T19:48:07.244Z"
+    "created_at": "2024-06-22T09:00:06.482Z",
+    "updated_at": "2024-06-22T09:00:06.482Z"
   },
   {
     "id": 628,
@@ -755,8 +752,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.258Z",
-    "updated_at": "2024-06-19T19:48:07.258Z"
+    "created_at": "2024-06-22T09:00:06.496Z",
+    "updated_at": "2024-06-22T09:00:06.496Z"
   },
   {
     "id": 630,
@@ -769,8 +766,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.261Z",
-    "updated_at": "2024-06-19T19:48:07.261Z"
+    "created_at": "2024-06-22T09:00:06.498Z",
+    "updated_at": "2024-06-22T09:00:06.498Z"
   },
   {
     "id": 633,
@@ -783,8 +780,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.263Z",
-    "updated_at": "2024-06-19T19:48:07.263Z"
+    "created_at": "2024-06-22T09:00:06.500Z",
+    "updated_at": "2024-06-22T09:00:06.500Z"
   },
   {
     "id": 666,
@@ -797,8 +794,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.295Z",
-    "updated_at": "2024-06-19T19:48:07.295Z"
+    "created_at": "2024-06-22T09:00:06.540Z",
+    "updated_at": "2024-06-22T09:00:06.540Z"
   },
   {
     "id": 667,
@@ -811,8 +808,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.296Z",
-    "updated_at": "2024-06-19T19:48:07.296Z"
+    "created_at": "2024-06-22T09:00:06.541Z",
+    "updated_at": "2024-06-22T09:00:06.541Z"
   },
   {
     "id": 133,
@@ -822,12 +819,11 @@
     "hltv_id": null,
     "hltv_path_name": null,
     "hltv_url": null,
-    "points": 746,
-    "standing": 136,
-    "previous_standing": null,
+    "valve_points": 746,
+    "valve_standing": 136,
     "status": null,
-    "created_at": "2024-06-19T19:48:07.299Z",
-    "updated_at": "2024-06-19T19:48:07.299Z"
+    "created_at": "2024-06-22T09:00:06.544Z",
+    "updated_at": "2024-06-22T09:00:06.544Z"
   },
   {
     "id": 670,
@@ -840,8 +836,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.299Z",
-    "updated_at": "2024-06-19T19:48:07.299Z"
+    "created_at": "2024-06-22T09:00:06.545Z",
+    "updated_at": "2024-06-22T09:00:06.545Z"
   },
   {
     "id": 674,
@@ -854,8 +850,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.302Z",
-    "updated_at": "2024-06-19T19:48:07.302Z"
+    "created_at": "2024-06-22T09:00:06.548Z",
+    "updated_at": "2024-06-22T09:00:06.548Z"
   },
   {
     "id": 675,
@@ -868,8 +864,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.304Z",
-    "updated_at": "2024-06-19T19:48:07.304Z"
+    "created_at": "2024-06-22T09:00:06.550Z",
+    "updated_at": "2024-06-22T09:00:06.550Z"
   },
   {
     "id": 676,
@@ -882,8 +878,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.304Z",
-    "updated_at": "2024-06-19T19:48:07.304Z"
+    "created_at": "2024-06-22T09:00:06.551Z",
+    "updated_at": "2024-06-22T09:00:06.551Z"
   },
   {
     "id": 677,
@@ -896,8 +892,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.305Z",
-    "updated_at": "2024-06-19T19:48:07.305Z"
+    "created_at": "2024-06-22T09:00:06.552Z",
+    "updated_at": "2024-06-22T09:00:06.552Z"
   },
   {
     "id": 679,
@@ -910,8 +906,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.306Z",
-    "updated_at": "2024-06-19T19:48:07.306Z"
+    "created_at": "2024-06-22T09:00:06.553Z",
+    "updated_at": "2024-06-22T09:00:06.553Z"
   },
   {
     "id": 1112,
@@ -924,8 +920,8 @@
     "hltv_url": "https://www.hltv.org/player/20386/learsi",
     "hltv_id": 20386,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:08.297Z",
-    "updated_at": "2024-06-19T19:48:08.297Z"
+    "created_at": "2024-06-22T09:00:07.599Z",
+    "updated_at": "2024-06-22T09:00:07.599Z"
   },
   {
     "id": 692,
@@ -938,8 +934,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.318Z",
-    "updated_at": "2024-06-19T19:48:07.318Z"
+    "created_at": "2024-06-22T09:00:06.567Z",
+    "updated_at": "2024-06-22T09:00:06.567Z"
   },
   {
     "id": 700,
@@ -952,8 +948,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.326Z",
-    "updated_at": "2024-06-19T19:48:07.326Z"
+    "created_at": "2024-06-22T09:00:06.576Z",
+    "updated_at": "2024-06-22T09:00:06.576Z"
   },
   {
     "id": 701,
@@ -966,8 +962,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.327Z",
-    "updated_at": "2024-06-19T19:48:07.327Z"
+    "created_at": "2024-06-22T09:00:06.577Z",
+    "updated_at": "2024-06-22T09:00:06.577Z"
   },
   {
     "id": 702,
@@ -980,8 +976,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.327Z",
-    "updated_at": "2024-06-19T19:48:07.327Z"
+    "created_at": "2024-06-22T09:00:06.577Z",
+    "updated_at": "2024-06-22T09:00:06.577Z"
   },
   {
     "id": 703,
@@ -994,8 +990,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.328Z",
-    "updated_at": "2024-06-19T19:48:07.328Z"
+    "created_at": "2024-06-22T09:00:06.578Z",
+    "updated_at": "2024-06-22T09:00:06.578Z"
   },
   {
     "id": 714,
@@ -1008,8 +1004,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.338Z",
-    "updated_at": "2024-06-19T19:48:07.338Z"
+    "created_at": "2024-06-22T09:00:06.588Z",
+    "updated_at": "2024-06-22T09:00:06.588Z"
   },
   {
     "id": 717,
@@ -1022,8 +1018,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.341Z",
-    "updated_at": "2024-06-19T19:48:07.341Z"
+    "created_at": "2024-06-22T09:00:06.591Z",
+    "updated_at": "2024-06-22T09:00:06.591Z"
   },
   {
     "id": 725,
@@ -1036,8 +1032,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.348Z",
-    "updated_at": "2024-06-19T19:48:07.348Z"
+    "created_at": "2024-06-22T09:00:06.599Z",
+    "updated_at": "2024-06-22T09:00:06.599Z"
   },
   {
     "id": 726,
@@ -1050,8 +1046,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.349Z",
-    "updated_at": "2024-06-19T19:48:07.349Z"
+    "created_at": "2024-06-22T09:00:06.600Z",
+    "updated_at": "2024-06-22T09:00:06.600Z"
   },
   {
     "id": 727,
@@ -1064,8 +1060,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.349Z",
-    "updated_at": "2024-06-19T19:48:07.349Z"
+    "created_at": "2024-06-22T09:00:06.600Z",
+    "updated_at": "2024-06-22T09:00:06.600Z"
   },
   {
     "id": 728,
@@ -1078,8 +1074,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.350Z",
-    "updated_at": "2024-06-19T19:48:07.350Z"
+    "created_at": "2024-06-22T09:00:06.601Z",
+    "updated_at": "2024-06-22T09:00:06.601Z"
   },
   {
     "id": 729,
@@ -1092,8 +1088,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.351Z",
-    "updated_at": "2024-06-19T19:48:07.351Z"
+    "created_at": "2024-06-22T09:00:06.601Z",
+    "updated_at": "2024-06-22T09:00:06.601Z"
   },
   {
     "id": 733,
@@ -1106,8 +1102,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.355Z",
-    "updated_at": "2024-06-19T19:48:07.355Z"
+    "created_at": "2024-06-22T09:00:06.606Z",
+    "updated_at": "2024-06-22T09:00:06.606Z"
   },
   {
     "id": 735,
@@ -1120,8 +1116,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.357Z",
-    "updated_at": "2024-06-19T19:48:07.357Z"
+    "created_at": "2024-06-22T09:00:06.608Z",
+    "updated_at": "2024-06-22T09:00:06.608Z"
   },
   {
     "id": 739,
@@ -1134,8 +1130,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.360Z",
-    "updated_at": "2024-06-19T19:48:07.360Z"
+    "created_at": "2024-06-22T09:00:06.611Z",
+    "updated_at": "2024-06-22T09:00:06.611Z"
   },
   {
     "id": 741,
@@ -1148,8 +1144,8 @@
     "hltv_url": "https://www.hltv.org/player/18830/grave",
     "hltv_id": 18830,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.362Z",
-    "updated_at": "2024-06-19T19:48:08.268Z"
+    "created_at": "2024-06-22T09:00:06.613Z",
+    "updated_at": "2024-06-22T09:00:07.569Z"
   },
   {
     "id": 746,
@@ -1162,8 +1158,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.367Z",
-    "updated_at": "2024-06-19T19:48:07.367Z"
+    "created_at": "2024-06-22T09:00:06.617Z",
+    "updated_at": "2024-06-22T09:00:06.617Z"
   },
   {
     "id": 749,
@@ -1176,8 +1172,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.369Z",
-    "updated_at": "2024-06-19T19:48:07.369Z"
+    "created_at": "2024-06-22T09:00:06.620Z",
+    "updated_at": "2024-06-22T09:00:06.620Z"
   },
   {
     "id": 752,
@@ -1190,8 +1186,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.372Z",
-    "updated_at": "2024-06-19T19:48:07.372Z"
+    "created_at": "2024-06-22T09:00:06.623Z",
+    "updated_at": "2024-06-22T09:00:06.623Z"
   },
   {
     "id": 760,
@@ -1204,8 +1200,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.379Z",
-    "updated_at": "2024-06-19T19:48:07.379Z"
+    "created_at": "2024-06-22T09:00:06.630Z",
+    "updated_at": "2024-06-22T09:00:06.630Z"
   },
   {
     "id": 762,
@@ -1218,8 +1214,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.381Z",
-    "updated_at": "2024-06-19T19:48:07.381Z"
+    "created_at": "2024-06-22T09:00:06.631Z",
+    "updated_at": "2024-06-22T09:00:06.631Z"
   },
   {
     "id": 152,
@@ -1229,12 +1225,11 @@
     "hltv_id": null,
     "hltv_path_name": null,
     "hltv_url": null,
-    "points": 700,
-    "standing": 155,
-    "previous_standing": null,
+    "valve_points": 700,
+    "valve_standing": 155,
     "status": null,
-    "created_at": "2024-06-19T19:48:07.383Z",
-    "updated_at": "2024-06-19T19:48:07.383Z"
+    "created_at": "2024-06-22T09:00:06.634Z",
+    "updated_at": "2024-06-22T09:00:06.634Z"
   },
   {
     "id": 765,
@@ -1247,8 +1242,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.384Z",
-    "updated_at": "2024-06-19T19:48:07.384Z"
+    "created_at": "2024-06-22T09:00:06.635Z",
+    "updated_at": "2024-06-22T09:00:06.635Z"
   },
   {
     "id": 766,
@@ -1261,8 +1256,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.385Z",
-    "updated_at": "2024-06-19T19:48:07.385Z"
+    "created_at": "2024-06-22T09:00:06.636Z",
+    "updated_at": "2024-06-22T09:00:06.636Z"
   },
   {
     "id": 767,
@@ -1275,8 +1270,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.385Z",
-    "updated_at": "2024-06-19T19:48:07.385Z"
+    "created_at": "2024-06-22T09:00:06.636Z",
+    "updated_at": "2024-06-22T09:00:06.636Z"
   },
   {
     "id": 768,
@@ -1289,8 +1284,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.386Z",
-    "updated_at": "2024-06-19T19:48:07.386Z"
+    "created_at": "2024-06-22T09:00:06.637Z",
+    "updated_at": "2024-06-22T09:00:06.637Z"
   },
   {
     "id": 769,
@@ -1303,8 +1298,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.387Z",
-    "updated_at": "2024-06-19T19:48:07.387Z"
+    "created_at": "2024-06-22T09:00:06.638Z",
+    "updated_at": "2024-06-22T09:00:06.638Z"
   },
   {
     "id": 770,
@@ -1317,8 +1312,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.388Z",
-    "updated_at": "2024-06-19T19:48:07.388Z"
+    "created_at": "2024-06-22T09:00:06.639Z",
+    "updated_at": "2024-06-22T09:00:06.639Z"
   },
   {
     "id": 771,
@@ -1331,8 +1326,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.389Z",
-    "updated_at": "2024-06-19T19:48:07.389Z"
+    "created_at": "2024-06-22T09:00:06.640Z",
+    "updated_at": "2024-06-22T09:00:06.640Z"
   },
   {
     "id": 776,
@@ -1345,8 +1340,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.393Z",
-    "updated_at": "2024-06-19T19:48:07.393Z"
+    "created_at": "2024-06-22T09:00:06.644Z",
+    "updated_at": "2024-06-22T09:00:06.644Z"
   },
   {
     "id": 777,
@@ -1359,8 +1354,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.394Z",
-    "updated_at": "2024-06-19T19:48:07.394Z"
+    "created_at": "2024-06-22T09:00:06.645Z",
+    "updated_at": "2024-06-22T09:00:06.645Z"
   },
   {
     "id": 778,
@@ -1373,8 +1368,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.395Z",
-    "updated_at": "2024-06-19T19:48:07.395Z"
+    "created_at": "2024-06-22T09:00:06.646Z",
+    "updated_at": "2024-06-22T09:00:06.646Z"
   },
   {
     "id": 780,
@@ -1387,8 +1382,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.397Z",
-    "updated_at": "2024-06-19T19:48:07.397Z"
+    "created_at": "2024-06-22T09:00:06.649Z",
+    "updated_at": "2024-06-22T09:00:06.649Z"
   },
   {
     "id": 781,
@@ -1401,8 +1396,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.398Z",
-    "updated_at": "2024-06-19T19:48:07.398Z"
+    "created_at": "2024-06-22T09:00:06.649Z",
+    "updated_at": "2024-06-22T09:00:06.649Z"
   },
   {
     "id": 782,
@@ -1415,8 +1410,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.399Z",
-    "updated_at": "2024-06-19T19:48:07.399Z"
+    "created_at": "2024-06-22T09:00:06.650Z",
+    "updated_at": "2024-06-22T09:00:06.650Z"
   },
   {
     "id": 783,
@@ -1429,8 +1424,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.399Z",
-    "updated_at": "2024-06-19T19:48:07.399Z"
+    "created_at": "2024-06-22T09:00:06.651Z",
+    "updated_at": "2024-06-22T09:00:06.651Z"
   },
   {
     "id": 786,
@@ -1443,8 +1438,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.402Z",
-    "updated_at": "2024-06-19T19:48:07.402Z"
+    "created_at": "2024-06-22T09:00:06.654Z",
+    "updated_at": "2024-06-22T09:00:06.654Z"
   },
   {
     "id": 787,
@@ -1457,8 +1452,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.403Z",
-    "updated_at": "2024-06-19T19:48:07.403Z"
+    "created_at": "2024-06-22T09:00:06.654Z",
+    "updated_at": "2024-06-22T09:00:06.654Z"
   },
   {
     "id": 788,
@@ -1471,8 +1466,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.404Z",
-    "updated_at": "2024-06-19T19:48:07.404Z"
+    "created_at": "2024-06-22T09:00:06.655Z",
+    "updated_at": "2024-06-22T09:00:06.655Z"
   },
   {
     "id": 797,
@@ -1485,8 +1480,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.412Z",
-    "updated_at": "2024-06-19T19:48:07.412Z"
+    "created_at": "2024-06-22T09:00:06.663Z",
+    "updated_at": "2024-06-22T09:00:06.663Z"
   },
   {
     "id": 800,
@@ -1499,8 +1494,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.415Z",
-    "updated_at": "2024-06-19T19:48:07.415Z"
+    "created_at": "2024-06-22T09:00:06.667Z",
+    "updated_at": "2024-06-22T09:00:06.667Z"
   },
   {
     "id": 801,
@@ -1513,8 +1508,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.415Z",
-    "updated_at": "2024-06-19T19:48:07.415Z"
+    "created_at": "2024-06-22T09:00:06.667Z",
+    "updated_at": "2024-06-22T09:00:06.667Z"
   },
   {
     "id": 802,
@@ -1527,8 +1522,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.416Z",
-    "updated_at": "2024-06-19T19:48:07.416Z"
+    "created_at": "2024-06-22T09:00:06.668Z",
+    "updated_at": "2024-06-22T09:00:06.668Z"
   },
   {
     "id": 803,
@@ -1541,8 +1536,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.417Z",
-    "updated_at": "2024-06-19T19:48:07.417Z"
+    "created_at": "2024-06-22T09:00:06.669Z",
+    "updated_at": "2024-06-22T09:00:06.669Z"
   },
   {
     "id": 804,
@@ -1555,8 +1550,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.418Z",
-    "updated_at": "2024-06-19T19:48:07.418Z"
+    "created_at": "2024-06-22T09:00:06.670Z",
+    "updated_at": "2024-06-22T09:00:06.670Z"
   },
   {
     "id": 809,
@@ -1569,8 +1564,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.424Z",
-    "updated_at": "2024-06-19T19:48:07.424Z"
+    "created_at": "2024-06-22T09:00:06.676Z",
+    "updated_at": "2024-06-22T09:00:06.676Z"
   },
   {
     "id": 811,
@@ -1583,8 +1578,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.425Z",
-    "updated_at": "2024-06-19T19:48:07.425Z"
+    "created_at": "2024-06-22T09:00:06.678Z",
+    "updated_at": "2024-06-22T09:00:06.678Z"
   },
   {
     "id": 815,
@@ -1597,8 +1592,8 @@
     "hltv_url": "https://www.hltv.org/player/17470/melio",
     "hltv_id": 17470,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.429Z",
-    "updated_at": "2024-06-19T19:48:08.080Z"
+    "created_at": "2024-06-22T09:00:06.681Z",
+    "updated_at": "2024-06-22T09:00:07.380Z"
   },
   {
     "id": 816,
@@ -1611,8 +1606,8 @@
     "hltv_url": "https://www.hltv.org/player/17658/tenskee",
     "hltv_id": 17658,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.429Z",
-    "updated_at": "2024-06-19T19:48:08.081Z"
+    "created_at": "2024-06-22T09:00:06.682Z",
+    "updated_at": "2024-06-22T09:00:07.382Z"
   },
   {
     "id": 817,
@@ -1625,8 +1620,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.430Z",
-    "updated_at": "2024-06-19T19:48:07.430Z"
+    "created_at": "2024-06-22T09:00:06.683Z",
+    "updated_at": "2024-06-22T09:00:06.683Z"
   },
   {
     "id": 823,
@@ -1639,8 +1634,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.436Z",
-    "updated_at": "2024-06-19T19:48:07.436Z"
+    "created_at": "2024-06-22T09:00:06.688Z",
+    "updated_at": "2024-06-22T09:00:06.688Z"
   },
   {
     "id": 829,
@@ -1653,8 +1648,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.441Z",
-    "updated_at": "2024-06-19T19:48:07.441Z"
+    "created_at": "2024-06-22T09:00:06.694Z",
+    "updated_at": "2024-06-22T09:00:06.694Z"
   },
   {
     "id": 843,
@@ -1667,8 +1662,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.454Z",
-    "updated_at": "2024-06-19T19:48:07.454Z"
+    "created_at": "2024-06-22T09:00:06.708Z",
+    "updated_at": "2024-06-22T09:00:06.708Z"
   },
   {
     "id": 167,
@@ -1678,12 +1673,11 @@
     "hltv_id": null,
     "hltv_path_name": null,
     "hltv_url": null,
-    "points": 647,
-    "standing": 173,
-    "previous_standing": null,
+    "valve_points": 647,
+    "valve_standing": 173,
     "status": null,
-    "created_at": "2024-06-19T19:48:07.460Z",
-    "updated_at": "2024-06-19T19:48:07.460Z"
+    "created_at": "2024-06-22T09:00:06.715Z",
+    "updated_at": "2024-06-22T09:00:06.715Z"
   },
   {
     "id": 850,
@@ -1696,8 +1690,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.461Z",
-    "updated_at": "2024-06-19T19:48:07.461Z"
+    "created_at": "2024-06-22T09:00:06.721Z",
+    "updated_at": "2024-06-22T09:00:06.721Z"
   },
   {
     "id": 851,
@@ -1710,8 +1704,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.461Z",
-    "updated_at": "2024-06-19T19:48:07.461Z"
+    "created_at": "2024-06-22T09:00:06.722Z",
+    "updated_at": "2024-06-22T09:00:06.722Z"
   },
   {
     "id": 852,
@@ -1724,8 +1718,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.462Z",
-    "updated_at": "2024-06-19T19:48:07.462Z"
+    "created_at": "2024-06-22T09:00:06.723Z",
+    "updated_at": "2024-06-22T09:00:06.723Z"
   },
   {
     "id": 853,
@@ -1738,8 +1732,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.463Z",
-    "updated_at": "2024-06-19T19:48:07.463Z"
+    "created_at": "2024-06-22T09:00:06.723Z",
+    "updated_at": "2024-06-22T09:00:06.723Z"
   },
   {
     "id": 854,
@@ -1752,8 +1746,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.464Z",
-    "updated_at": "2024-06-19T19:48:07.464Z"
+    "created_at": "2024-06-22T09:00:06.724Z",
+    "updated_at": "2024-06-22T09:00:06.724Z"
   },
   {
     "id": 855,
@@ -1766,8 +1760,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.466Z",
-    "updated_at": "2024-06-19T19:48:07.466Z"
+    "created_at": "2024-06-22T09:00:06.726Z",
+    "updated_at": "2024-06-22T09:00:06.726Z"
   },
   {
     "id": 867,
@@ -1780,8 +1774,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.477Z",
-    "updated_at": "2024-06-19T19:48:07.477Z"
+    "created_at": "2024-06-22T09:00:06.736Z",
+    "updated_at": "2024-06-22T09:00:06.736Z"
   },
   {
     "id": 878,
@@ -1794,8 +1788,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.487Z",
-    "updated_at": "2024-06-19T19:48:07.487Z"
+    "created_at": "2024-06-22T09:00:06.746Z",
+    "updated_at": "2024-06-22T09:00:06.746Z"
   },
   {
     "id": 885,
@@ -1808,8 +1802,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.494Z",
-    "updated_at": "2024-06-19T19:48:07.494Z"
+    "created_at": "2024-06-22T09:00:06.752Z",
+    "updated_at": "2024-06-22T09:00:06.752Z"
   },
   {
     "id": 886,
@@ -1822,8 +1816,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.494Z",
-    "updated_at": "2024-06-19T19:48:07.494Z"
+    "created_at": "2024-06-22T09:00:06.753Z",
+    "updated_at": "2024-06-22T09:00:06.753Z"
   },
   {
     "id": 175,
@@ -1833,12 +1827,11 @@
     "hltv_id": null,
     "hltv_path_name": null,
     "hltv_url": null,
-    "points": 593,
-    "standing": 181,
-    "previous_standing": null,
+    "valve_points": 593,
+    "valve_standing": 181,
     "status": null,
-    "created_at": "2024-06-19T19:48:07.497Z",
-    "updated_at": "2024-06-19T19:48:07.497Z"
+    "created_at": "2024-06-22T09:00:06.757Z",
+    "updated_at": "2024-06-22T09:00:06.757Z"
   },
   {
     "id": 890,
@@ -1851,8 +1844,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.498Z",
-    "updated_at": "2024-06-19T19:48:07.498Z"
+    "created_at": "2024-06-22T09:00:06.757Z",
+    "updated_at": "2024-06-22T09:00:06.757Z"
   },
   {
     "id": 891,
@@ -1865,8 +1858,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.499Z",
-    "updated_at": "2024-06-19T19:48:07.499Z"
+    "created_at": "2024-06-22T09:00:06.758Z",
+    "updated_at": "2024-06-22T09:00:06.758Z"
   },
   {
     "id": 892,
@@ -1879,8 +1872,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.500Z",
-    "updated_at": "2024-06-19T19:48:07.500Z"
+    "created_at": "2024-06-22T09:00:06.759Z",
+    "updated_at": "2024-06-22T09:00:06.759Z"
   },
   {
     "id": 893,
@@ -1893,8 +1886,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.500Z",
-    "updated_at": "2024-06-19T19:48:07.500Z"
+    "created_at": "2024-06-22T09:00:06.759Z",
+    "updated_at": "2024-06-22T09:00:06.759Z"
   },
   {
     "id": 894,
@@ -1907,8 +1900,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.501Z",
-    "updated_at": "2024-06-19T19:48:07.501Z"
+    "created_at": "2024-06-22T09:00:06.760Z",
+    "updated_at": "2024-06-22T09:00:06.760Z"
   },
   {
     "id": 899,
@@ -1921,8 +1914,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.505Z",
-    "updated_at": "2024-06-19T19:48:07.505Z"
+    "created_at": "2024-06-22T09:00:06.764Z",
+    "updated_at": "2024-06-22T09:00:06.764Z"
   },
   {
     "id": 177,
@@ -1932,12 +1925,11 @@
     "hltv_id": null,
     "hltv_path_name": null,
     "hltv_url": null,
-    "points": 588,
-    "standing": 183,
-    "previous_standing": null,
+    "valve_points": 588,
+    "valve_standing": 183,
     "status": null,
-    "created_at": "2024-06-19T19:48:07.506Z",
-    "updated_at": "2024-06-19T19:48:07.506Z"
+    "created_at": "2024-06-22T09:00:06.765Z",
+    "updated_at": "2024-06-22T09:00:06.765Z"
   },
   {
     "id": 903,
@@ -1950,8 +1942,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.509Z",
-    "updated_at": "2024-06-19T19:48:07.509Z"
+    "created_at": "2024-06-22T09:00:06.768Z",
+    "updated_at": "2024-06-22T09:00:06.768Z"
   },
   {
     "id": 178,
@@ -1961,12 +1953,11 @@
     "hltv_id": null,
     "hltv_path_name": null,
     "hltv_url": null,
-    "points": 586,
-    "standing": 184,
-    "previous_standing": null,
+    "valve_points": 586,
+    "valve_standing": 184,
     "status": null,
-    "created_at": "2024-06-19T19:48:07.511Z",
-    "updated_at": "2024-06-19T19:48:07.511Z"
+    "created_at": "2024-06-22T09:00:06.770Z",
+    "updated_at": "2024-06-22T09:00:06.770Z"
   },
   {
     "id": 905,
@@ -1979,8 +1970,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.512Z",
-    "updated_at": "2024-06-19T19:48:07.512Z"
+    "created_at": "2024-06-22T09:00:06.771Z",
+    "updated_at": "2024-06-22T09:00:06.771Z"
   },
   {
     "id": 906,
@@ -1993,8 +1984,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.512Z",
-    "updated_at": "2024-06-19T19:48:07.512Z"
+    "created_at": "2024-06-22T09:00:06.771Z",
+    "updated_at": "2024-06-22T09:00:06.771Z"
   },
   {
     "id": 907,
@@ -2007,8 +1998,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.513Z",
-    "updated_at": "2024-06-19T19:48:07.513Z"
+    "created_at": "2024-06-22T09:00:06.772Z",
+    "updated_at": "2024-06-22T09:00:06.772Z"
   },
   {
     "id": 908,
@@ -2021,8 +2012,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.514Z",
-    "updated_at": "2024-06-19T19:48:07.514Z"
+    "created_at": "2024-06-22T09:00:06.773Z",
+    "updated_at": "2024-06-22T09:00:06.773Z"
   },
   {
     "id": 909,
@@ -2035,8 +2026,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.514Z",
-    "updated_at": "2024-06-19T19:48:07.514Z"
+    "created_at": "2024-06-22T09:00:06.773Z",
+    "updated_at": "2024-06-22T09:00:06.773Z"
   },
   {
     "id": 911,
@@ -2049,8 +2040,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.517Z",
-    "updated_at": "2024-06-19T19:48:07.517Z"
+    "created_at": "2024-06-22T09:00:06.776Z",
+    "updated_at": "2024-06-22T09:00:06.776Z"
   },
   {
     "id": 920,
@@ -2063,8 +2054,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.525Z",
-    "updated_at": "2024-06-19T19:48:07.525Z"
+    "created_at": "2024-06-22T09:00:06.784Z",
+    "updated_at": "2024-06-22T09:00:06.784Z"
   },
   {
     "id": 921,
@@ -2077,8 +2068,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.526Z",
-    "updated_at": "2024-06-19T19:48:07.526Z"
+    "created_at": "2024-06-22T09:00:06.784Z",
+    "updated_at": "2024-06-22T09:00:06.784Z"
   },
   {
     "id": 922,
@@ -2091,8 +2082,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.527Z",
-    "updated_at": "2024-06-19T19:48:07.527Z"
+    "created_at": "2024-06-22T09:00:06.785Z",
+    "updated_at": "2024-06-22T09:00:06.785Z"
   },
   {
     "id": 923,
@@ -2105,8 +2096,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.527Z",
-    "updated_at": "2024-06-19T19:48:07.527Z"
+    "created_at": "2024-06-22T09:00:06.786Z",
+    "updated_at": "2024-06-22T09:00:06.786Z"
   },
   {
     "id": 925,
@@ -2119,8 +2110,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.529Z",
-    "updated_at": "2024-06-19T19:48:07.529Z"
+    "created_at": "2024-06-22T09:00:06.788Z",
+    "updated_at": "2024-06-22T09:00:06.788Z"
   },
   {
     "id": 926,
@@ -2133,8 +2124,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.530Z",
-    "updated_at": "2024-06-19T19:48:07.530Z"
+    "created_at": "2024-06-22T09:00:06.788Z",
+    "updated_at": "2024-06-22T09:00:06.788Z"
   },
   {
     "id": 928,
@@ -2147,8 +2138,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.532Z",
-    "updated_at": "2024-06-19T19:48:07.532Z"
+    "created_at": "2024-06-22T09:00:06.790Z",
+    "updated_at": "2024-06-22T09:00:06.790Z"
   },
   {
     "id": 929,
@@ -2161,8 +2152,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.532Z",
-    "updated_at": "2024-06-19T19:48:07.532Z"
+    "created_at": "2024-06-22T09:00:06.791Z",
+    "updated_at": "2024-06-22T09:00:06.791Z"
   },
   {
     "id": 930,
@@ -2175,8 +2166,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.534Z",
-    "updated_at": "2024-06-19T19:48:07.534Z"
+    "created_at": "2024-06-22T09:00:06.792Z",
+    "updated_at": "2024-06-22T09:00:06.792Z"
   },
   {
     "id": 931,
@@ -2189,8 +2180,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.534Z",
-    "updated_at": "2024-06-19T19:48:07.534Z"
+    "created_at": "2024-06-22T09:00:06.793Z",
+    "updated_at": "2024-06-22T09:00:06.793Z"
   },
   {
     "id": 932,
@@ -2203,8 +2194,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.535Z",
-    "updated_at": "2024-06-19T19:48:07.535Z"
+    "created_at": "2024-06-22T09:00:06.793Z",
+    "updated_at": "2024-06-22T09:00:06.793Z"
   },
   {
     "id": 933,
@@ -2217,8 +2208,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.536Z",
-    "updated_at": "2024-06-19T19:48:07.536Z"
+    "created_at": "2024-06-22T09:00:06.794Z",
+    "updated_at": "2024-06-22T09:00:06.794Z"
   },
   {
     "id": 974,
@@ -2231,8 +2222,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.574Z",
-    "updated_at": "2024-06-19T19:48:07.574Z"
+    "created_at": "2024-06-22T09:00:06.834Z",
+    "updated_at": "2024-06-22T09:00:06.834Z"
   },
   {
     "id": 936,
@@ -2245,8 +2236,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.539Z",
-    "updated_at": "2024-06-19T19:48:07.539Z"
+    "created_at": "2024-06-22T09:00:06.797Z",
+    "updated_at": "2024-06-22T09:00:06.797Z"
   },
   {
     "id": 937,
@@ -2259,8 +2250,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.540Z",
-    "updated_at": "2024-06-19T19:48:07.540Z"
+    "created_at": "2024-06-22T09:00:06.798Z",
+    "updated_at": "2024-06-22T09:00:06.798Z"
   },
   {
     "id": 938,
@@ -2273,8 +2264,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.541Z",
-    "updated_at": "2024-06-19T19:48:07.541Z"
+    "created_at": "2024-06-22T09:00:06.799Z",
+    "updated_at": "2024-06-22T09:00:06.799Z"
   },
   {
     "id": 939,
@@ -2287,8 +2278,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.541Z",
-    "updated_at": "2024-06-19T19:48:07.541Z"
+    "created_at": "2024-06-22T09:00:06.800Z",
+    "updated_at": "2024-06-22T09:00:06.800Z"
   },
   {
     "id": 942,
@@ -2301,8 +2292,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.544Z",
-    "updated_at": "2024-06-19T19:48:07.544Z"
+    "created_at": "2024-06-22T09:00:06.802Z",
+    "updated_at": "2024-06-22T09:00:06.802Z"
   },
   {
     "id": 944,
@@ -2315,8 +2306,8 @@
     "hltv_url": "https://www.hltv.org/player/13229/snakes",
     "hltv_id": 13229,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.546Z",
-    "updated_at": "2024-06-19T19:48:08.228Z"
+    "created_at": "2024-06-22T09:00:06.804Z",
+    "updated_at": "2024-06-22T09:00:07.530Z"
   },
   {
     "id": 953,
@@ -2329,8 +2320,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.555Z",
-    "updated_at": "2024-06-19T19:48:07.555Z"
+    "created_at": "2024-06-22T09:00:06.815Z",
+    "updated_at": "2024-06-22T09:00:06.815Z"
   },
   {
     "id": 954,
@@ -2343,8 +2334,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.556Z",
-    "updated_at": "2024-06-19T19:48:07.556Z"
+    "created_at": "2024-06-22T09:00:06.815Z",
+    "updated_at": "2024-06-22T09:00:06.815Z"
   },
   {
     "id": 955,
@@ -2357,8 +2348,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.556Z",
-    "updated_at": "2024-06-19T19:48:07.556Z"
+    "created_at": "2024-06-22T09:00:06.816Z",
+    "updated_at": "2024-06-22T09:00:06.816Z"
   },
   {
     "id": 956,
@@ -2371,8 +2362,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.557Z",
-    "updated_at": "2024-06-19T19:48:07.557Z"
+    "created_at": "2024-06-22T09:00:06.817Z",
+    "updated_at": "2024-06-22T09:00:06.817Z"
   },
   {
     "id": 957,
@@ -2385,8 +2376,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.558Z",
-    "updated_at": "2024-06-19T19:48:07.558Z"
+    "created_at": "2024-06-22T09:00:06.817Z",
+    "updated_at": "2024-06-22T09:00:06.817Z"
   },
   {
     "id": 959,
@@ -2399,8 +2390,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.560Z",
-    "updated_at": "2024-06-19T19:48:07.560Z"
+    "created_at": "2024-06-22T09:00:06.820Z",
+    "updated_at": "2024-06-22T09:00:06.820Z"
   },
   {
     "id": 960,
@@ -2413,8 +2404,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.561Z",
-    "updated_at": "2024-06-19T19:48:07.561Z"
+    "created_at": "2024-06-22T09:00:06.820Z",
+    "updated_at": "2024-06-22T09:00:06.820Z"
   },
   {
     "id": 997,
@@ -2427,8 +2418,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.595Z",
-    "updated_at": "2024-06-19T19:48:07.595Z"
+    "created_at": "2024-06-22T09:00:06.856Z",
+    "updated_at": "2024-06-22T09:00:06.856Z"
   },
   {
     "id": 998,
@@ -2441,8 +2432,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.596Z",
-    "updated_at": "2024-06-19T19:48:07.596Z"
+    "created_at": "2024-06-22T09:00:06.857Z",
+    "updated_at": "2024-06-22T09:00:06.857Z"
   },
   {
     "id": 999,
@@ -2455,8 +2446,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.596Z",
-    "updated_at": "2024-06-19T19:48:07.596Z"
+    "created_at": "2024-06-22T09:00:06.858Z",
+    "updated_at": "2024-06-22T09:00:06.858Z"
   },
   {
     "id": 190,
@@ -2466,12 +2457,11 @@
     "hltv_id": null,
     "hltv_path_name": null,
     "hltv_url": null,
-    "points": 528,
-    "standing": 197,
-    "previous_standing": null,
+    "valve_points": 528,
+    "valve_standing": 197,
     "status": null,
-    "created_at": "2024-06-19T19:48:07.568Z",
-    "updated_at": "2024-06-19T19:48:07.568Z"
+    "created_at": "2024-06-22T09:00:06.827Z",
+    "updated_at": "2024-06-22T09:00:06.827Z"
   },
   {
     "id": 968,
@@ -2484,8 +2474,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.568Z",
-    "updated_at": "2024-06-19T19:48:07.568Z"
+    "created_at": "2024-06-22T09:00:06.828Z",
+    "updated_at": "2024-06-22T09:00:06.828Z"
   },
   {
     "id": 969,
@@ -2498,8 +2488,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.569Z",
-    "updated_at": "2024-06-19T19:48:07.569Z"
+    "created_at": "2024-06-22T09:00:06.829Z",
+    "updated_at": "2024-06-22T09:00:06.829Z"
   },
   {
     "id": 970,
@@ -2512,8 +2502,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.570Z",
-    "updated_at": "2024-06-19T19:48:07.570Z"
+    "created_at": "2024-06-22T09:00:06.829Z",
+    "updated_at": "2024-06-22T09:00:06.829Z"
   },
   {
     "id": 977,
@@ -2526,8 +2516,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.576Z",
-    "updated_at": "2024-06-19T19:48:07.576Z"
+    "created_at": "2024-06-22T09:00:06.837Z",
+    "updated_at": "2024-06-22T09:00:06.837Z"
   },
   {
     "id": 978,
@@ -2540,8 +2530,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.577Z",
-    "updated_at": "2024-06-19T19:48:07.577Z"
+    "created_at": "2024-06-22T09:00:06.838Z",
+    "updated_at": "2024-06-22T09:00:06.838Z"
   },
   {
     "id": 979,
@@ -2554,8 +2544,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.578Z",
-    "updated_at": "2024-06-19T19:48:07.578Z"
+    "created_at": "2024-06-22T09:00:06.839Z",
+    "updated_at": "2024-06-22T09:00:06.839Z"
   },
   {
     "id": 980,
@@ -2568,8 +2558,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.579Z",
-    "updated_at": "2024-06-19T19:48:07.579Z"
+    "created_at": "2024-06-22T09:00:06.840Z",
+    "updated_at": "2024-06-22T09:00:06.840Z"
   },
   {
     "id": 981,
@@ -2582,8 +2572,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.580Z",
-    "updated_at": "2024-06-19T19:48:07.580Z"
+    "created_at": "2024-06-22T09:00:06.841Z",
+    "updated_at": "2024-06-22T09:00:06.841Z"
   },
   {
     "id": 192,
@@ -2593,12 +2583,11 @@
     "hltv_id": null,
     "hltv_path_name": null,
     "hltv_url": null,
-    "points": 522,
-    "standing": 200,
-    "previous_standing": null,
+    "valve_points": 522,
+    "valve_standing": 200,
     "status": null,
-    "created_at": "2024-06-19T19:48:07.581Z",
-    "updated_at": "2024-06-19T19:48:07.581Z"
+    "created_at": "2024-06-22T09:00:06.841Z",
+    "updated_at": "2024-06-22T09:00:06.841Z"
   },
   {
     "id": 985,
@@ -2611,8 +2600,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.584Z",
-    "updated_at": "2024-06-19T19:48:07.584Z"
+    "created_at": "2024-06-22T09:00:06.844Z",
+    "updated_at": "2024-06-22T09:00:06.844Z"
   },
   {
     "id": 986,
@@ -2625,8 +2614,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.584Z",
-    "updated_at": "2024-06-19T19:48:07.584Z"
+    "created_at": "2024-06-22T09:00:06.845Z",
+    "updated_at": "2024-06-22T09:00:06.845Z"
   },
   {
     "id": 988,
@@ -2639,8 +2628,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.587Z",
-    "updated_at": "2024-06-19T19:48:07.587Z"
+    "created_at": "2024-06-22T09:00:06.847Z",
+    "updated_at": "2024-06-22T09:00:06.847Z"
   },
   {
     "id": 992,
@@ -2653,8 +2642,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.590Z",
-    "updated_at": "2024-06-19T19:48:07.590Z"
+    "created_at": "2024-06-22T09:00:06.851Z",
+    "updated_at": "2024-06-22T09:00:06.851Z"
   },
   {
     "id": 995,
@@ -2667,8 +2656,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.592Z",
-    "updated_at": "2024-06-19T19:48:07.592Z"
+    "created_at": "2024-06-22T09:00:06.853Z",
+    "updated_at": "2024-06-22T09:00:06.853Z"
   },
   {
     "id": 1014,
@@ -2681,8 +2670,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.610Z",
-    "updated_at": "2024-06-19T19:48:07.610Z"
+    "created_at": "2024-06-22T09:00:06.871Z",
+    "updated_at": "2024-06-22T09:00:06.871Z"
   },
   {
     "id": 1016,
@@ -2695,8 +2684,8 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.612Z",
-    "updated_at": "2024-06-19T19:48:07.612Z"
+    "created_at": "2024-06-22T09:00:06.873Z",
+    "updated_at": "2024-06-22T09:00:06.873Z"
   },
   {
     "id": 1018,
@@ -2709,7 +2698,7 @@
     "hltv_url": null,
     "hltv_id": null,
     "hltv_photo_url": null,
-    "created_at": "2024-06-19T19:48:07.613Z",
-    "updated_at": "2024-06-19T19:48:07.613Z"
+    "created_at": "2024-06-22T09:00:06.874Z",
+    "updated_at": "2024-06-22T09:00:06.874Z"
   }
 ]

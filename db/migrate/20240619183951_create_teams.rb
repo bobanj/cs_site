@@ -9,9 +9,8 @@ class CreateTeams < ActiveRecord::Migration[7.1]
       t.integer :hltv_id
       t.string :hltv_path_name
       t.string :hltv_url
-      t.integer :points
-      t.integer :standing
-      t.integer :previous_standing
+      t.integer :valve_points
+      t.integer :valve_standing
       t.string :status
 
       t.timestamps
