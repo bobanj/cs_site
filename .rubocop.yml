@@ -15,6 +15,7 @@ Layout/LineLength:
   Exclude:
     - "config/initializers/simple_form_bootstrap.rb"
     - "config/initializers/simple_form.rb"
+    - "app/lib/valve_rank_extractor.rb"
 
 Metrics/AbcSize:
   Max: 100

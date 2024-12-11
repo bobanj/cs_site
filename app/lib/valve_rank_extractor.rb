@@ -26,7 +26,7 @@ class ValveRankExtractor
 
   def new_global_ranking?
     if all_teams_ranking.blank? || !PREV_STANDINGS_FILE_PATH.exist?
-      return false # TODO remove this once figuring out how to fetch prev standings
+      return false # TODO: remove this once figuring out how to fetch prev standings
       # raise GlobalRankingUnavailableError, 'Global ranking data is not available'
     end
 

@@ -5,6 +5,8 @@ and HLTV (teams and players - assets and stats) and stores it in db.
 ## Requirements
 * Ruby (see `.ruby-version` for version)
 * Using [rbenv](https://github.com/rbenv/rbenv) is a good idea
+* [Pre-Commit](https://pre-commit.com/)
+
 
 ## Installation
 
@@ -25,10 +27,10 @@ bundle exec rake ranking:fetch
 bundle exec rake hltv:fetch
 ```
 
-* Import data to the database 
+* Import data to the database
 * Populate assets
-  * teams logos`assets/images/teams` 
-  * players images`assets/images/players` 
+  * teams logos`assets/images/teams`
+  * players images`assets/images/players`
 ```bash
 bundle exec rake import:all
 ```
