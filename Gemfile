@@ -2,8 +2,6 @@
 
 source 'https://rubygems.org'
 
-ruby '3.3.2'
-
 gem 'bootsnap', require: false
 gem 'bootstrap', '~> 5.3'
 gem 'faker'
