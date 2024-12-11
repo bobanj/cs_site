@@ -1,4 +1,6 @@
-# README
+# CS2 App (Counter-Strike 2)
+This is a simple app that fetches data from Valve (ranking)
+and HLTV (teams and players - assets and stats) and stores it in db.
 
 ## Requirements
 * Ruby (see `.ruby-version` for version)
