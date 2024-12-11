@@ -39,7 +39,8 @@ bundle exec rake import:all
 ```bash
 bundle exec rails s
 ```
-
+# Screenshot
+![Screenshot](app/assets/images/screenshot.jpg)
 # TODO
 * Add tests
 * Automagically update rankings and calculate differences
