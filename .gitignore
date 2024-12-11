@@ -26,7 +26,13 @@
 !/tmp/storage/
 !/tmp/storage/.keep
 
+# IMAGES
 /public/assets
+app/assets/images/players/*
+app/assets/images/teams/*
+
+# DATA
+lib/data/*
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key

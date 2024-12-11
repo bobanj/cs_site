@@ -38,6 +38,7 @@ class AssetImporter
     @no_logo_items << object and return if object.logo_url.blank?
     setup_placeholder_image(object) and return if object.logo_url.starts_with?('/')
 
+    pom = object.respond_to?(:nickname) ? object.nickname : object.name
     puts "DOWNLOADING IMAGE FOR #{object.class.name}: #{pom}: #{object.id}"
     io = image_io(object.logo_url.gsub(BASE_URL, ''))
     extension = image_extension(io)

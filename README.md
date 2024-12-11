@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Requirements
+* Ruby (see `.ruby-version` for version)
+* Using [rbenv](https://github.com/rbenv/rbenv) is a good idea
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Once ruby is installed:
+```bash
+gem install bundler
+bundle install
+bundle exec rake db:setup
+```
+* Start the server:
+```bash
+bundle exec rails s
+```

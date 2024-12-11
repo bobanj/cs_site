@@ -23,7 +23,7 @@ class HltvExtractor
   def all_teams_info
     return @teams_info if @teams_info.present?
 
-    @teams_info = _fetch
+    @teams_info = fetch
   end
 
   def export

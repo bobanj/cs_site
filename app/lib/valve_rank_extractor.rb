@@ -2,7 +2,7 @@
 
 class ValveRankExtractor
   BASE_URL = 'https://raw.githubusercontent.com'
-  STANDINGS_ENDPOINT = '/ValveSoftware/counter-strike_regional_standings/main/standings_global.md'
+  STANDINGS_ENDPOINT = '/ValveSoftware/counter-strike_regional_standings/refs/heads/main/live/2024/standings_global_2024_08_06.md'
   FILE_PATH = Rails.root.join('lib/data/ranking_data.json')
   PREV_STANDINGS_FILE_PATH = Rails.root.join('lib/data/standings_global.md')
   STANDING_INDEX = 0
@@ -24,7 +24,8 @@ class ValveRankExtractor
 
   def new_global_ranking?
     if all_teams_ranking.blank? || !PREV_STANDINGS_FILE_PATH.exist?
-      raise GlobalRankingUnavailableError, 'Global ranking data is not available'
+      return false # TODO remove this once figuring out how to fetch prev standings
+      # raise GlobalRankingUnavailableError, 'Global ranking data is not available'
     end
 
     @current_response.body != PREV_STANDINGS_FILE_PATH.read
