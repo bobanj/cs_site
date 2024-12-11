@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'fileutils'
-
 class AssetImporter
   BASE_URL = 'https://img-cdn.hltv.org'
 

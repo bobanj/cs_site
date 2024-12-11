@@ -16,6 +16,8 @@ class ValveRankExtractor
   attr_reader :teams_ranking
 
   def initialize
+    FileUtils.mkdir_p(Rails.root.join('lib/data'))
+
     @teams_ranking = []
     @conn = create_connection
     @current_response = nil
